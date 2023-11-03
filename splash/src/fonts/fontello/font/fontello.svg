@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="angle" unicode="&#xe802;" d="M991-141v985m0-985l-985 0m985 0l-985 985" horiz-adv-x="1000" />
+
+<glyph glyph-name="arrow" unicode="&#xe807;" d="M1425 398l-430 432a67 67 0 0 1-95 0 68 68 0 0 1 0-95l315-317h-1148a68 68 0 0 1 0-136h1148l-315-317a68 68 0 0 1 0-95 67 67 0 0 1 95 0l430 432a68 68 0 0 1 0 96z" horiz-adv-x="1445" />
+
+<glyph glyph-name="hero_arrow1" unicode="&#xe80a;" d="M142 832v-956m-117 118l117-118 116 118" horiz-adv-x="283" />
+</font>
+</defs>
+</svg>

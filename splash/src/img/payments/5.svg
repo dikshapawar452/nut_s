@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32.697487mm"
+   height="12.771438mm"
+   viewBox="0 0 32.697487 12.771438"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.49887767"
+     inkscape:cx="67.150731"
+     inkscape:cy="133.29921"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-87.0709,-112.94464)">
+    <g
+       id="_5"
+       data-name="5"
+       transform="matrix(0.26458333,0,0,0.26458333,87.072445,112.93988)">
+      <path
+         id="Path_109818"
+         data-name="Path 109818"
+         d="m 11.733,13.279 a 11.928,11.928 0 0 0 0,23.853 11.345,11.345 0 0 0 7.2,-2.037 2.488,2.488 0 0 0 1.117,-3.132 2.221,2.221 0 0 0 -3.08,-1.095 9.085,9.085 0 0 1 -5.233,1.566 6.966,6.966 0 0 1 -2.358,-0.4 A 7.369,7.369 0 0 1 5.86,29.259 7.612,7.612 0 0 1 6,20.957 a 7.456,7.456 0 0 1 3.53,-2.606 6.9,6.9 0 0 1 2.208,-0.36 6.839,6.839 0 0 1 6.773,4.851 H 10.343 A 2.3,2.3 0 0 0 8.067,25.157 V 25.2 a 2.288,2.288 0 0 0 2.276,2.3 c 3.611,0.014 7.114,0.014 10.779,0.028 A 2.314,2.314 0 0 0 23.452,25.2 11.59,11.59 0 0 0 11.733,13.279 Z"
+         transform="translate(0,-1.54)"
+         fill="#272727" />
+      <path
+         id="Path_109819"
+         data-name="Path 109819"
+         d="m 49.746,13.279 a 11.935,11.935 0 0 0 0,23.867 11.345,11.345 0 0 0 7.2,-2.037 2.488,2.488 0 0 0 1.117,-3.132 2.221,2.221 0 0 0 -3.08,-1.095 9.085,9.085 0 0 1 -5.233,1.566 6.969,6.969 0 0 1 -2.358,-0.4 7.369,7.369 0 0 1 -3.516,-2.772 7.612,7.612 0 0 1 0.136,-8.3 7.455,7.455 0 0 1 3.53,-2.606 7.115,7.115 0 0 1 8.981,4.491 H 48.37 a 2.3,2.3 0 0 0 -2.276,2.315 v 0.042 a 2.288,2.288 0 0 0 2.276,2.3 c 3.611,0.014 7.114,0.014 10.779,0.028 a 2.314,2.314 0 0 0 2.33,-2.329 11.6,11.6 0 0 0 -11.733,-11.938 z"
+         transform="translate(-4.407,-1.54)"
+         fill="#272727" />
+      <path
+         id="Path_109820"
+         data-name="Path 109820"
+         d="M 29.751,33.264 V 2.328 a 2.31,2.31 0 1 1 4.62,0 v 30.936 a 2.311,2.311 0 1 1 -4.62,0 z"
+         transform="translate(-3.449)"
+         fill="#272727" />
+      <path
+         id="Path_109821"
+         data-name="Path 109821"
+         d="m 111.563,15.654 a 2.349,2.349 0 0 1 -2.33,2.37 7.157,7.157 0 0 0 -7.1,7.221 v 9.563 a 2.31,2.31 0 1 1 -4.619,0 v -9.549 a 11.835,11.835 0 0 1 11.733,-11.933 2.32,2.32 0 0 1 2.316,2.328 z"
+         transform="translate(-11.306,-1.545)"
+         fill="#272727" />
+      <path
+         id="Path_109822"
+         data-name="Path 109822"
+         d="m 113.252,25.2 a 11.728,11.728 0 1 1 11.72,11.933 11.832,11.832 0 0 1 -11.72,-11.933 z m 4.62,0 a 7.1,7.1 0 1 0 7.1,-7.221 7.183,7.183 0 0 0 -7.1,7.221 z"
+         transform="translate(-13.131,-1.538)"
+         fill="#272727" />
+      <path
+         id="Path_109823"
+         data-name="Path 109823"
+         d="m 80,53.349 a 11.957,11.957 0 0 1 -10.62,-6.486 2.2,2.2 0 0 1 0.886,-2.952 2.123,2.123 0 0 1 2.9,0.9 7.674,7.674 0 0 0 13.628,0.055 2.134,2.134 0 0 1 2.916,-0.887 2.212,2.212 0 0 1 0.872,2.966 A 12.005,12.005 0 0 1 80,53.349 Z"
+         transform="translate(-8.015,-5.061)"
+         fill="#115ea6" />
+      <path
+         id="Path_109824"
+         data-name="Path 109824"
+         d="m 91.015,16.643 a 3.15,3.15 0 0 0 0,-4.407 3.048,3.048 0 0 0 -4.334,0 L 84.8,14.148 A 11.484,11.484 0 0 0 79.88,13.053 11.928,11.928 0 1 0 91.615,24.986 12.075,12.075 0 0 0 89.53,18.181 Z M 79.868,32.194 a 7.222,7.222 0 1 1 7.1,-7.221 7.183,7.183 0 0 1 -7.1,7.221 z"
+         transform="translate(-7.901,-1.314)"
+         fill="#272727" />
+    </g>
+  </g>
+</svg>
