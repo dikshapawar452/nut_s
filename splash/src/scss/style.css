@@ -1667,7 +1667,7 @@ nav .btn_mob {
   position: relative;
   background: url(../img/hero/bg.jpg) center no-repeat;
   background-size: cover;
-  padding-top: 14.5em;
+  padding-top: 18.5em;
   padding-bottom: 28.7em;
 }
 @media (max-width: 1439px) {
@@ -1886,10 +1886,10 @@ nav .btn_mob {
   }
 }
 #scene > div:nth-of-type(1) {
-  top: 42% !important;
+  top: 48% !important;
   bottom: auto !important;
   left: 11% !important;
-  max-width: 245px;
+  max-width: 176px;
 }
 @media (max-width: 1439px) {
   #scene > div:nth-of-type(1) {
@@ -2379,7 +2379,7 @@ nav .btn_mob {
   }
 }
 .benefits .column:nth-of-type(1) .item:nth-of-type(1) .img_wrap {
-  max-width: 74px;
+  max-width: 107px;
 }
 @media (max-width: 1279px) {
   .benefits .column:nth-of-type(1) .item:nth-of-type(1) .img_wrap {
@@ -2407,7 +2407,7 @@ nav .btn_mob {
   }
 }
 .benefits .column:nth-of-type(1) .item:nth-of-type(2) .img_wrap {
-  max-width: 130px;
+  max-width: 98px;
   min-width: 100px;
   padding-bottom: 8px;
 }
@@ -2462,8 +2462,8 @@ nav .btn_mob {
   }
 }
 .benefits .column:nth-of-type(2) .item:nth-of-type(2) .img_wrap {
-  max-width: 78px;
-  margin-bottom: -6px;
+  max-width: 95px;
+  margin-bottom: -14px;
 }
 @media (max-width: 1279px) {
   .benefits .column:nth-of-type(2) .item:nth-of-type(2) .img_wrap {
@@ -2484,7 +2484,7 @@ nav .btn_mob {
   }
 }
 .benefits .column:nth-of-type(3) .item:nth-of-type(1) .img_wrap {
-  max-width: 102px;
+  max-width: 110px;
   padding-bottom: 5px;
 }
 @media (max-width: 1439px) {
@@ -2518,7 +2518,7 @@ nav .btn_mob {
   }
 }
 .benefits .column:nth-of-type(3) .item:nth-of-type(2) .img_wrap {
-  max-width: 78px;
+  max-width: 180px;
 }
 @media (max-width: 1439px) {
   .benefits .column:nth-of-type(3) .item:nth-of-type(2) .img_wrap {
@@ -3087,10 +3087,10 @@ nav .btn_mob {
   }
 }
 .plugins .plugins_slider_item {
-  height: 195px;
+  height: 296px;
   box-sizing: border-box;
   padding: 1em 15px 2.6em;
-  background-color: rgba(255, 255, 255, 0.1);
+  /* background-color: rgba(255, 255, 255, 0.1); */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -3119,7 +3119,7 @@ nav .btn_mob {
   color: #93959D;
 }
 .plugins .plugins_slider_item-wooc .img_wrap {
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
 }
 
 /*    payment    */
@@ -4392,11 +4392,17 @@ nav .btn_mob {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+.benefits center{
+margin-top: 5% !important;
+}
+
+
 .smtext{
   text-align: center;
-  padding-top: 25px;
-  font-size: 24px;
-  font-weight: 600;
-
+  margin-top: 2%;
 }
+
+.img-border{
+border: 15px solid rgb(255 255 255 / 10%);
+}
+/*# sourceMappingURL=style.css.map */
