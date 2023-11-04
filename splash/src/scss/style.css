@@ -1232,7 +1232,7 @@ figcaption {
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   color: #1CC343;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   letter-spacing: 0.1em;
   font-weight: 700;
@@ -2407,7 +2407,7 @@ nav .btn_mob {
   }
 }
 .benefits .column:nth-of-type(1) .item:nth-of-type(2) .img_wrap {
-  max-width: 153px;
+  max-width: 130px;
   min-width: 100px;
   padding-bottom: 8px;
 }
@@ -2435,7 +2435,7 @@ nav .btn_mob {
   }
 }
 .benefits .column:nth-of-type(2) .item:nth-of-type(1) .img_wrap {
-  max-width: 198px;
+  max-width: 140px;
   padding-bottom: 6px;
 }
 @media (max-width: 1439px) {
@@ -2462,7 +2462,7 @@ nav .btn_mob {
   }
 }
 .benefits .column:nth-of-type(2) .item:nth-of-type(2) .img_wrap {
-  max-width: 65px;
+  max-width: 78px;
   margin-bottom: -6px;
 }
 @media (max-width: 1279px) {
