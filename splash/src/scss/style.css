@@ -2312,7 +2312,6 @@ nav .btn_mob {
   overflow: visible;
   --gap: 30px;
   padding-bottom: calc(var(--grid-mt) + 2.2em);
-  margin-top: 5%;
 }
 @media (max-width: 1439px) {
   .benefits {
