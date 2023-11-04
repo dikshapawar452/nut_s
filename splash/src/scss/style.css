@@ -1667,7 +1667,7 @@ nav .btn_mob {
   position: relative;
   background: url(../img/hero/bg.jpg) center no-repeat;
   background-size: cover;
-  padding-top: 18.5em;
+  padding-top: 14.5em;
   padding-bottom: 28.7em;
 }
 @media (max-width: 1439px) {
@@ -1886,10 +1886,10 @@ nav .btn_mob {
   }
 }
 #scene > div:nth-of-type(1) {
-  top: 48% !important;
+  top: 42% !important;
   bottom: auto !important;
   left: 11% !important;
-  max-width: 176px;
+  max-width: 245px;
 }
 @media (max-width: 1439px) {
   #scene > div:nth-of-type(1) {
@@ -4393,3 +4393,10 @@ nav .btn_mob {
 }
 
 /*# sourceMappingURL=style.css.map */
+.smtext{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 24px;
+  font-weight: 600;
+
+}
