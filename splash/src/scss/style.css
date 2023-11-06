@@ -3099,7 +3099,7 @@
  }
  @media (max-width: 767px) {
    .plugins .plugins_slider_item {
-     height: 175px;
+    height: 231px;
    }
  }
  .plugins .plugins_slider_item img {
@@ -4414,7 +4414,12 @@
    margin-top: 2%;
  }
  
- 
+ @media (max-width: 767px){
+ .plugins .plugins_slider_item img {
+  margin: 0 auto;
+  width: 222px;
+  height: 187px;
+}}
  
  /*# sourceMappingURL=style.css.map */
  
