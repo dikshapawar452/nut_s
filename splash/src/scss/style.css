@@ -1102,7 +1102,7 @@
    letter-spacing: 0;
    /* font-weight: 700; */
    color: #fff;
-   margin-bottom: 5%;
+
  }
  @media (max-width: 1023px) {
    li {
@@ -2677,7 +2677,7 @@
    }
  }
  .block .list-wrap {
-   /* display: grid; */
+   display: grid;
    grid-template-columns: 1fr 1fr;
    max-width: 650px;
    margin-top: 1.9em;
@@ -4425,7 +4425,7 @@
  
  .democenter{
   padding-bottom: 0px;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 .customtext{
   padding-top: 13px;
