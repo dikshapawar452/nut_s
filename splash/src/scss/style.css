@@ -1667,7 +1667,7 @@
  
  .hero {
    position: relative;
-   background: url(../img/hero/bg.jpg) center no-repeat;
+   background: url(../img/hero/bg1.png) center no-repeat;
    background-size: cover;
    padding-top: 18.5em;
    padding-bottom: 28.7em;
@@ -3900,7 +3900,7 @@
  }
  .cust-benefits .grid .item {
    background-color: #120D1C;
-   height: 388px;
+   height: 450px;
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
@@ -3951,9 +3951,9 @@
    }
  }
  .cust-benefits .grid .item:nth-of-type(1) .img_wrap {
-   max-width: 240px;
-   width: 62.5%;
-   padding-bottom: 8.5%;
+  max-width: 250px;
+  width: 100%;
+  padding-bottom: 8.5%;
  }
  @media (max-width: 1279px) {
    .cust-benefits .grid .item:nth-of-type(1) .img_wrap {
@@ -3961,14 +3961,14 @@
    }
  }
  .cust-benefits .grid .item:nth-of-type(1) img:nth-of-type(1) {
-   max-width: 121px;
-   width: 50%;
+  max-width: 260px;
+  width: 100%;
  }
  .cust-benefits .grid .item:nth-of-type(1) img:nth-of-type(2) {
-   max-width: 99px;
-   width: 41%;
-   right: 0;
-   bottom: 0;
+  max-width: 118px;
+  width: 50%;
+  right: 0;
+  bottom: 0;
  }
  .cust-benefits .grid .item:nth-of-type(2) .img_wrap {
    max-width: 280px;
@@ -4005,7 +4005,7 @@
    }
  }
  .cust-benefits .grid .item:nth-of-type(3) img:nth-of-type(1) {
-   max-width: 275px;
+   max-width: 235px;
    width: 90%;
    left: 4%;
  }
@@ -4418,3 +4418,16 @@
  
  /*# sourceMappingURL=style.css.map */
  
+ .democenter{
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+.customtext{
+  padding-top: 13px;
+  text-align: justify;
+}
+.smtext{
+  text-align: center;
+  font-size: 22px;
+  padding-top: 46px;
+}
