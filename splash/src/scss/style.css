@@ -1181,7 +1181,10 @@
    line-height: 1em;
    letter-spacing: 0.1em;
    padding: 1.8em 3.4em;
-   margin: 0px 35px 0px 0px;
+   margin: 0px 0px 0px 0px;
+ }
+ .btn2{
+ margin: 0px 20px 0px 0px;
  }
  @media (max-width: 1023px) {
    .btn {
@@ -4113,9 +4116,9 @@
  }
  .features .grid .item .img-wrap {
    box-sizing: border-box;
-   height: 76px;
-   width: 76px;
-   background-color: #120D1C;
+   height: 105px;
+    width: 137px;
+   /* background-color: #120D1C; */
    padding: 0;
    margin: 0 auto;
    display: grid;
