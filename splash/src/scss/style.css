@@ -354,7 +354,7 @@
  }
  @media (max-width: 1439px) {
    :root {
-     --grid-mt: 2em;
+     --grid-mt: 4em;
      --block-pd: 6em;
      --block-pd-md: 6em;
      --cont-pd: 30px;
@@ -1186,6 +1186,21 @@
  .btn2{
  margin: 0px 20px 0px 0px;
  }
+
+
+ .button2 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #fff;
+  background-color: #F82F77;
+  font-weight: 700;
+  font-size: var(--btn-fz);
+  border-radius: 0;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  padding: 1.4em 1.4em;
+  margin: 0px 0px 0px 0px;
+}
  @media (max-width: 1023px) {
    .btn {
      padding: 1.4em 2.4em;
@@ -4088,7 +4103,7 @@
    margin-top: var(--grid-mt);
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   grid-gap: 40px 30px;
+   grid-gap: 60px 30px;
    justify-content: space-around;
    position: relative;
    z-index: 5;
@@ -4116,7 +4131,7 @@
  }
  .features .grid .item .img-wrap {
    box-sizing: border-box;
-   height: 105px;
+   height: 55px;
     width: 137px;
    /* background-color: #120D1C; */
    padding: 0;
@@ -4133,7 +4148,7 @@
    margin: 0 auto;
  }
  .features .grid .item_title {
-   margin: 1.35em auto 0.6em;
+  margin: 1.1em auto 1.1em;
  }
  @media (max-width: 1279px) {
    .features .grid .item_title {
@@ -4438,4 +4453,9 @@
   text-align: center;
   font-size: 22px;
   padding-top: 46px;
+}
+
+.tit{
+  font-weight: 500;
+    font-size: 19px;
 }
