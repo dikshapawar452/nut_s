@@ -4459,3 +4459,25 @@
   font-weight: 500;
     font-size: 19px;
 }
+
+.col_s {
+  margin-top: 12px;
+}
+
+.fa-copy:before {
+  content: "\f0c5";
+}
+.fa {
+  font-family: var("Font Awesome 6 Free");
+  font-weight: var(--fa-style,900);
+}
+
+.font{
+font-size: 19px;
+font-weight: 500;
+padding: 5px;
+}
+
+.card-content{
+margin: 12px 0px 12px 0px;
+}
