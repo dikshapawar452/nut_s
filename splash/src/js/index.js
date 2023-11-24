@@ -174,14 +174,14 @@ var swiper = new Swiper('.swiper-container', {
 
 //Slick slider default
 
-$("#plugins_slider").slick({
-  variableWidth: true,
-  infinite: true,
-  arrows: false,
-  dots: false,
-  centerMode: true,
-  slidesToShow: 6,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  speed: 500,
-});
+// $("#plugins_slider").slick({
+//   variableWidth: true,
+//   infinite: true,
+//   arrows: false,
+//   dots: false,
+//   centerMode: true,
+//   slidesToShow: 6,
+//   autoplay: true,
+//   autoplaySpeed: 3000,
+//   speed: 500,
+// });
