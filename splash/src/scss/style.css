@@ -1049,7 +1049,7 @@
  .btn {
    font-family: "Kumbh Sans", sans-serif;
    color: #fff !important;
-   background-color: #f82f77 !important;
+   background-color: #ff2c78 !important;
    font-weight: 700;
    font-size: var(--btn-fz);
    border-radius: 0;
@@ -1068,8 +1068,8 @@
  .button2 {
   font-family: "Kumbh Sans", sans-serif;
   color: #ffffff;
-  background-color: #f53579;
-  font-weight: 700;
+  background-color: #ff2c78 ;
+  /* font-weight: 600; */
   font-size: var(--btn-fz);
   border-radius: 0;
   text-transform: uppercase;
@@ -1378,7 +1378,7 @@
    transition: width 0.2s ease;
  }
  nav a:hover {
-   color: #fff;
+   /* color: #fff; */
  }
  nav a:hover:after {
    width: 100%;
@@ -2764,7 +2764,7 @@
  
  /*    WOOC    */
  .woo-payments-wrap {
-   background: url(../img/woo/bg.webp) center no-repeat;
+   /* background: url(../img/woo/bg.webp) center no-repeat; */
  }
  
  .wooc {
@@ -3014,14 +3014,15 @@
  }
  @media (max-width: 767px) {
    .plugins .plugins_slider_item {
-    height: 231px;
+    height: 230px;
+    /* padding: 0em 0px 0em; */
    }
  }
  .plugins .plugins_slider_item img {
    /* max-width: 100%;
    width: auto; */
    margin: 0 auto;
-   width: 235px;
+   width: 344px;
  }
  .plugins .plugins_slider_item .item_title {
    font-size: 1.24rem;
@@ -4146,7 +4147,7 @@
    left: 0;
    right: 0;
    bottom: 0;
-   background: url("../img/footer/bg.webp") center no-repeat;
+   background: url("../img/footer/bg-og.webp") center no-repeat;
    background-size: cover;
    opacity: 0.72;
  }
@@ -4332,9 +4333,14 @@
  @media (max-width: 767px){
  .plugins .plugins_slider_item img {
   margin: 0 auto;
-  width: 222px;
-  height: 179px;
-}}
+  width: 172px;
+  height: 172px;
+}
+.democenter{
+  /* padding-bottom: 0px; */
+  padding-top: 35px !important;
+}
+}
  
  /*# sourceMappingURL=style.css.map */
  
@@ -4382,6 +4388,7 @@ margin: 12px 0px 12px 0px;
 
 .copy-icon{
 font-size: 14px;
+cursor: pointer;
 }
 
 .boomaff-text-about .wpb_wrapper {
@@ -4620,7 +4627,7 @@ overflow-y: scroll;
   text-align: left;
   position: relative;
     z-index: 9999;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin: 30px 0px 0px 0px;
 }
 
@@ -4644,7 +4651,7 @@ ul{
 .footer2-col{
    /* width: 25%; */
    padding: 0 15px;
-   margin: 10px 100px 5px 5px;
+   margin: 10px 85px 5px 5px;
 }
 .footer2-col h4{
 	font-size: 18px;
@@ -4686,13 +4693,32 @@ ul{
 	height: 40px;
 	width: 40px;
 	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
+	margin:0 2px 10px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
+
+
+@media (max-width:767px){
+  .footer2-col .social-links a{
+    width: 26px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer2-col .social-links a:hover{
+    color: #e91e63 !important;
+    background-color: transparent;
+  }
+}
+
+
 .footer2-col .social-links a:hover{
 	color: #24262b !important;
 	background-color: #ffffff;
@@ -5045,7 +5071,6 @@ color: grey;
 margin-bottom: -5% !important;
 }
 
-
 nav.scroll {
   background-color: #120d1c;
   color: #eef;
@@ -5066,7 +5091,7 @@ margin-top: -1%;
 }
 .footer2-col {
   padding: 0px 15px;
-  margin: 5px 20px 0px 20px;
+  margin: 5px -2px 0px 20px;
 }
 
 .fc .l{
@@ -5102,11 +5127,14 @@ opacity: 0.9;
 
 
 .laptop-video{
-  width: 100%;
+  width: 115%;
 }
 
-
-
+@media (max-width: 767px){
+.laptop-video{
+  width: 100%;
+}
+}
 
 /* ============================= */
 /* Panels */
@@ -6272,5 +6300,54 @@ body.rtl .trx_demo_panel_filters_list_item_totals {
 	transition: opacity .3s ease, visibility .3s ease, transform .3s ease;
 }
 
+.footer-p{
+  font-weight: bolder;
+    font-size: 19px;
+    color: #fff;
+    border-bottom: 3px solid #e91e63;
+    /* width: 118px; */
+    line-height: 40px;
+}
+
+.nav ul li a:hover{
+  border-bottom: 2px solid #e91e63;
+
+}
 
 
+.footer-logo img{
+  width: 160px;
+}
+
+
+.foo{
+  width: 100%;
+  font-weight: bolder;
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 3px solid #e91e63;
+    /* width: 97px; */
+    line-height: 45px;
+}
+.footer-2{
+  display: flex;
+
+}
+
+@media (max-width:767){
+  .foo {
+    width: 64% !important;
+}
+.social-links img {
+  margin-left: -10px;
+}
+}
+
+.social-links img{
+width: 150px;
+}
+
+
+.logo-cric{
+  WIDTH: 142PX;
+}
