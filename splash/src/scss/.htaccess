@@ -1,48 +1,43 @@
-## EXPIRES CACHING ##
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType image/jpg "access plus 1 month"
-ExpiresByType image/jpeg "access plus 1 month"
-ExpiresByType image/gif "access plus 1 month"
-ExpiresByType image/png "access plus 1 month"
-ExpiresByType text/css "access plus 1 month"
-ExpiresByType application/pdf "access plus 1 month"
-ExpiresByType text/x-javascript "access plus 1 month"
-ExpiresByType application/x-shockwave-flash "access plus 1 month"
-ExpiresByType image/x-icon "access plus 1 year"
-ExpiresDefault "access plus 2 days"
+# Enable the rewrite engine
+RewriteEngine On
+
+# Set the base directory for the website
+RewriteBase /
+
+# Compress HTML, CSS, and JavaScript files
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json
 </IfModule>
-## EXPIRES CACHING ##
 
-
-
+# Set expiration headers for images and assets
 <IfModule mod_expires.c>
-      ExpiresActive On
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
 
-       # Images
-      ExpiresByType image/jpeg "access plus 1 year"
-      ExpiresByType image/gif "access plus 1 year"
-      ExpiresByType image/png "access plus 1 year"
-      ExpiresByType image/webp "access plus 1 year"
-      ExpiresByType image/svg+xml "access plus 1 year"
-      ExpiresByType image/x-icon "access plus 1 year"
+# Enable browser caching
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=2592000"
+</IfModule>
 
-       # Video
-      ExpiresByType video/mp4 "access plus 1 year"
-      ExpiresByType video/mpeg "access plus 1 year"
+# Enable Gzip compression with higher compression level
+<IfModule mod_deflate.c>
+  SetOutputFilter DEFLATE
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json
+  DeflateCompressionLevel 9
+</IfModule>
 
-      # CSS, JavaScript
-      ExpiresByType text/css "access plus 1 month"
-      ExpiresByType text/javascript "access plus 1 month"
-      ExpiresByType application/javascript "access plus 1 month"
+# Remove ETags to improve caching
+Header unset ETag
+FileETag None
 
-      # Others
-      ExpiresByType application/pdf "access plus 1 month"
-      ExpiresByType application/x-shockwave-flash "access plus 1 month"
-    </IfModule>
-
-  <ifModule mod_deflate.c>
-<FilesMatch "\.(js|css)$">
-SetOutputFilter DEFLATE
-</FilesMatch>
-</ifModule>
+# Set the Keep-Alive header to improve loading times
+<IfModule mod_headers.c>
+  Header set Connection keep-alive
+</IfModule>
